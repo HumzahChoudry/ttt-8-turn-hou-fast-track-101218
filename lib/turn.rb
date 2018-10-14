@@ -7,11 +7,7 @@ def display_board(board)
 end 
 
 def valid_move?(board, index)
-  if board[index] == "X" || board[index] == "O" 
-    return false 
-  else 
-    return true 
-  end
+  return board[index] == " "
 end
 
 def position_taken?
