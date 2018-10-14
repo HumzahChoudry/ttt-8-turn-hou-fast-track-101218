@@ -19,5 +19,5 @@ def move
 end 
 
 def input_to_index(number)
-  number - 1
+  number.to_i - 1
 end
