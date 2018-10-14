@@ -7,8 +7,8 @@ def display_board(board)
 end 
 
 def valid_move?(board, index)
-  if board[index] == " " 
-    return true 
+  if board[index] == "X" || board[index] == "O" 
+    return false 
   else 
     return true 
   end
