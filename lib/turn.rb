@@ -7,7 +7,7 @@ def display_board(board)
 end 
 
 def valid_move?(board, index)
-  return board[index] == " "
+  return board[index] == " " && index < 9 && index > 0
 end
 
 def position_taken?
